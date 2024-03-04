@@ -1,0 +1,8 @@
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+[user]
+	name = MarcusPirita
+	email = piritamarcus@gmail.com
