@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a 
+                                href=""
+                                class="nav-link dropdown-toggle"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another Action</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#">Something else</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-felx" action="">
+                        <input type="text"
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-success" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <img 
+                        src="https://picsum.photos/id/233/600/400" 
+                        alt=""
+                        class="img-fluid"
+                    />
+                </div>
+                <div class="col-md-5">
+                    <h1 class="mt-5">Tagline</h1>
+                    <p class="mt-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Repellendus sit et expedita iusto sunt. 
+                        Neque quasi assumenda laudantium illo reiciendis autem ullam 
+                        magnam perferendis, dolore, ipsam perspiciatis sed aperiam 
+                        quaerat!
+                    </p>
+                    <button type="button" class="btn btn-primary mt-3">
+                        Call the action!
+                    </button>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="bg-secondary text-white my-3 py-3 card text-center">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card">
+                            <img 
+                                src="https://picsum.photos/id/200/320/200"
+                                class="card-img-top" 
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5>Card Title</h5>
+                                <p class="card-text">
+                                    This is the wider card with supporting text belowas a natural
+                                    lead-in to additional content. This content is a little bit
+                                    longer.
+                                </p>
+                                <div>
+                                    <a href="#">
+                                        <button type="button" class="btn btn-primary">
+                                            Read more
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img 
+                                src="https://picsum.photos/id/202/320/200" 
+                                alt=""
+                                class="card-img-top"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sed quasi ullam quia tenetur, nemo corrupti eum atque sit obcaecati pariatur
+                                ad deleniti repudiandae placeat, reprehenderit exercitationem? 
+                                Voluptate consequuntur possimus ipsa?
+                            </p>
+                            <div>
+                                <a href="#">
+                                    <button type="button" class="btn btn-primary">
+                                        Read more
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <h2>Get in touch</h2>
+                <p class="lead">Questions? Do not hesitate to contact us.</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form action="">
+                        <label for="email" class="form-label">Email:</label>
+                        <input 
+                            type="email"
+                            id="email"
+                            placeholder="my@email.com"
+                            class="form-control"
+                        />
+                            <label for="name" class="form-label">Name:</label>
+                            <input 
+                                type="name"
+                                id="name"
+                                placeholder="e.g. Your Name"
+                                class="form-control"
+                            /> 
+                        <label for="subject" class="form-label">Subject</label>
+                        <select name="subject" id="subject" class="form-select">
+                            <option value="pricing">Pricing</option>
+                            <option value="technical" selected>Technical Question</option>
+                            <option value="other">Option</option>
+                        </select>
+
+                        <div class="form-floating my-5">
+                            <textarea 
+                            name="query" 
+                            id="query"
+                            style="height: 150;"
+                            class="form-control"
+                            placeholder="Write a message" 
+                            cols="30" 
+                            rows="10"></textarea>
+                            <label for="query">Write a message</label>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Send!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <span class="text-muted">
+                Copyrights
+                <a href="https://w3schools.com">W3Schools.com</a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
